@@ -11,8 +11,8 @@
 	"classPath": "src",
 	"description": "Externs for Discord.js",
 	"contributors": [
-		"eliasku"
+		"Jarrio"
 	],
 	"version": "0.0.1",
-	"url": "https://github.com/eliasku/ecx"
+	"url": "https://github.com/Jarrio/Haxe-DiscordJs"
 }
