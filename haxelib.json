@@ -1,0 +1,18 @@
+{
+	"name": "discordjs",
+	"license": "MIT",
+	"tags": [
+		"ecs",
+		"entity",
+		"component",
+		"system",
+		"cross"
+	],
+	"classPath": "src",
+	"description": "Externs for Discord.js",
+	"contributors": [
+		"eliasku"
+	],
+	"version": "0.0.1",
+	"url": "https://github.com/eliasku/ecx"
+}
