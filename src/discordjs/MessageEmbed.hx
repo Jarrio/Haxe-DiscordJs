@@ -1,6 +1,6 @@
 package discordjs;
 
-import externs.discordjs.types.MessageOptions;
+import discordjs.types.MessageOptions;
 import haxe.extern.EitherType;
 import haxe.extern.Rest;
 import js.lib.Promise;

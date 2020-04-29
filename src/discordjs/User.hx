@@ -1,6 +1,6 @@
 package discordjs;
 
-import externs.discordjs.types.MessageOptions;
+import discordjs.types.MessageOptions;
 import js.lib.Promise;
 import js.node.events.EventEmitter;
 
@@ -20,7 +20,7 @@ extern class User extends Base implements TextBasedChannel {
 	public var tag:String;
 	public var username:String;
 
-	public function send(message:String = '', options:MessageOptions = null):Promise<Array<Message>>;
+	public function send(message:String = '', options:MessageOptions = null):Promise<Message>;
 	public function startTyping(count:Int):Promise<Void>;
 	public function stopTyping(force:Bool = false):Void;
 	public function displayAvatarURL(url_opts:UserImageURLOptions = null):String;
