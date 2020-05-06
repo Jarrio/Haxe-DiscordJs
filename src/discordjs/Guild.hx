@@ -8,4 +8,5 @@ extern class Guild extends Base {
 	public var name:String;
 	public var available:Bool;
 	public var roles:RoleManager;
+	public var members:GuildMemberManager;
 }
